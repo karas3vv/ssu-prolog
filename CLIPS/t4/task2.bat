@@ -1,0 +1,6 @@
+; Запуск из папки CLIPS: (batch "t4/task2.bat")
+(clear)
+(load "t4/task2.clp")
+(reset)
+(run)
+(facts)
