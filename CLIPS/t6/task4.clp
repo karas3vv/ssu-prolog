@@ -1,10 +1,10 @@
 ; Тема 6, задание 4. Кусочно заданная функция с параметром a:
-; x < 0: |x-a| / x^2; x = 0: 0; x > 0: sin(x+a).
+; x < 0: |x-a| / x^2; x = 0: 0; x > 0: sin(|x+a|).
 (deffunction piecewise-y (?x ?a)
     (if (< ?x 0) then
         (return (/ (abs (- ?x ?a)) (** ?x 2))))
     (if (= ?x 0) then (return 0))
-    (sin (+ ?x ?a))
+    (sin (abs (+ ?x ?a)))
 )
 
 (defrule piecewise-input

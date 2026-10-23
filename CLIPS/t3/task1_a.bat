@@ -9,5 +9,5 @@
 (duplicate 3 (in 104))
 (facts)
 
-; Явно сохраняем только клиентов, без initial-fact старого CLIPS.
+; Явно сохраняем только клиентов
 (save-facts "t3/clients_a.fct" local client)

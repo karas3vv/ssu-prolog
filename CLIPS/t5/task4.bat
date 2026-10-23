@@ -1,0 +1,5 @@
+; Запуск из папки CLIPS: (batch "t5/task4.bat")
+(clear)
+(load "t5/task4.clp")
+(reset)
+(run)

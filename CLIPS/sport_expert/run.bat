@@ -1,0 +1,5 @@
+; Запуск из папки CLIPS: (batch "sport_expert/run.bat")
+(clear)
+(load "sport_expert/sport_expert.clp")
+(reset)
+(run)
